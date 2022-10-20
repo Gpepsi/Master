@@ -14,7 +14,7 @@ credentials = {
     0: ['Tom', 'Helloworld', 'www.google.com'],
     1: ['Jasper', 'Huggywuggy', 'www.roblox.com'],
     2: ['Angel', 'Shakinit', 'www.youtube.com'],
-    3: ['Hannah', 'Loudmouth', 'www.shein.com'],
+    3: ['Hannah', 'Loudmouth', 'www.instagram.com'],
     4: ['Elizabeth', 'Lizzywizzy', 'www.facebook.com']
 }
 
@@ -107,7 +107,11 @@ def update_user():
         if user_id == -1:
             print('\nReturning to the Main Menu.....\nPlease Wait.....')
             time.sleep(3)
-            menu() 
+            menu()
+        if user_id < -1:
+            print('\nThat is not an option !!')
+            time.sleep(1)
+            update_user()
         # - Return the values from the dictionary for confirmation    
         elif user_id <= len(credentials.items()) - 1:
             for key in credentials.keys():
@@ -201,7 +205,11 @@ def update_pass():
         if user_id == -1:
             print('\nReturning to the Main Menu.....\nPlease Wait.....')
             time.sleep(3)
-            menu() 
+            menu()
+        if user_id < -1:
+            print('\nThat is not an option !!')
+            time.sleep(1)
+            update_pass() 
         elif user_id <= len(credentials.items()) - 1:
             for key in credentials.keys():
                 username = credentials[user_id][0]
@@ -296,7 +304,11 @@ def update_website():
         if user_id == -1:
             print('\nReturning to the Main Menu.....\nPlease Wait.....')
             time.sleep(3)
-            menu() 
+            menu()
+        if user_id < -1:
+            print('\nThat is not an option !!')
+            time.sleep(1)
+            update_website() 
         elif user_id <= len(credentials.items()) - 1:
             for key in credentials.keys():
                 username = credentials[user_id][0]
@@ -378,6 +390,7 @@ def view_all():
     print('     ***** WELCOME TO THE DATABASE *****\n')
     print('    Displaying contents of ALL stored Users\n')
     print('-' *50, sep='')
+    # - Set values for the list variables
     for key in credentials.keys():
         user_name = credentials[key][0]
         user_pass = credentials[key][1]        
@@ -470,7 +483,6 @@ def choice():
             if cmd == 7:
                 print('\n\nExiting...!')
                 time.sleep(1)
-                control = False
                 exit()
             if cmd > 7:
                 print("\nThat is not an option, try again !\n\n")
@@ -486,3 +498,7 @@ def choice():
 
 
 menu()
+
+
+# - Developments concluded 16_Oct_22
+# - Final Ver # 7.0
