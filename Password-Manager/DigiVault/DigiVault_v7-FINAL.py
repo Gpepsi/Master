@@ -9,6 +9,17 @@ import time
 
 os.system('cls')
 
+# - Check that credentials.txt file exists
+database_check = os.path.exists('credentials.txt')
+if database_check == True:
+    print("credentials.txt Check Complete!")
+    time.sleep(2)
+else:
+    f = open("credentials.txt", 'w')
+    f.close()
+    print("credentials.txt File does not exist !\nCreating file !") 
+    time.sleep(2)
+
 # - Creating a dictionary to store retrievable information - NOT REAL CREDENTIALS
 credentials = {
     0: ['Tom', 'Helloworld', 'www.google.com'],
