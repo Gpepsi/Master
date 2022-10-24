@@ -12,15 +12,14 @@ import time
 os.system('cls')
 
 def scan():
-    print('+'+"-" *55, end="+\n")
-    print('\nEnter the NETWORK address to scan')
-    print('Example..... 192.168.1\n')
+    print('\n\033[2;31;40mEnter the NETWORK address to scan\033[0;0m')
+    print('Example..... \033[1;37;40m192.168.1\033[0;0m\n')
     
     try:
         user_input = 0
         while user_input == 0:
             # - User input network address in the format specified 000.000.000
-            user_input = input('Enter the network IP: ')
+            user_input = input('\033[2;31;40mEnter the network IP:\033[0;0m ')
             if re.match(r"^[0-9]*[0-9]*[0-9]*\.[0-9]*[0-9]*[0-9]*\.[0-9]*[0-9]*[0-9]*$", user_input):
                 
                 # - The users input is split into separate octets
@@ -33,7 +32,7 @@ def scan():
                 if (x > -1) and (x < 256):
                     if (y > -1) and (y < 256):
                         if (z > -1) and (z < 256):
-                            print("\nNetwork address accepted !")
+                            print("\n\033[2;32;40mNetwork address accepted !\033[0;0m")
                             time.sleep(1)
                             
                             # - With all conditions met, assemble octets into a network address
@@ -43,8 +42,8 @@ def scan():
                             while first_host == -1:
                                 try:
                                     # - User inputs the starting range of the last octet
-                                    print("\nSet lowest value of last Octet")           
-                                    first_host = int(input('Enter a value between 0-255: '))
+                                    print("\n\033[2;31;40mSet lowest value of last Octet\033[0;0m")           
+                                    first_host = int(input('Enter a value between \033[1;37;40m0-255\033[0;0m: '))
                                     # - Confirm value is within valid range of 0-255
                                     if (first_host > 0) and (first_host < 256):
                                         last_host = -1
@@ -52,8 +51,8 @@ def scan():
                                         while last_host == -1:   
                                             try:
                                                 # - User inputs the end range of the last octet
-                                                print("\nSet highest value of last Octet")           
-                                                last_host = int(input('Enter a value between 0-255: '))
+                                                print("\n\033[2;31;40mSet highest value of last Octet\033[0;0m")           
+                                                last_host = int(input('Enter a value between \033[1;37;40m0-255\033[0;0m: '))
                                                 # - Confirm value is within valid range of 0-255
                                                 if (last_host > 0) and (last_host < 256):
                                                     last_host += 1
@@ -69,7 +68,7 @@ def scan():
                                                     # - Create a timestamp of when scan begins
                                                     time1 = datetime.datetime.now()
                                                     print('\nScan started at :', time1)
-                                                    print('\nScanning in Progress.......\nPlease wait........\n')
+                                                    print('\n\033[2;32;40mScanning in Progress.......\033[0;0m\nPlease wait........\n')
 
                                                     # - Set the range of IP addresses to be scanned
                                                     counter = 0
@@ -83,7 +82,7 @@ def scan():
                                                         
                                                         for line in list:
                                                             if(line.count('TTL')):
-                                                                print(addr, '--> LIVE')
+                                                                print(addr, '--> \033[1;37;42mLIVE\033[0;0m')
                                                                 counter += 1
                                                                 
                                                     # - Create time stamp and calculate the time taken for scan to complete                                                                  
@@ -91,15 +90,15 @@ def scan():
                                                     total = time2 - time1
                                                     print('\nScanning complete in -->', total, '\n')
                                                     if counter >= 1:
-                                                        print('NetScan discovered ( ', counter,' )active connections\n')
+                                                        print('NetScan discovered (\033[1;32;40m',counter,'\033[0;0m) active connections\n')
                                                         time.sleep(2)
                                                     else:
-                                                        print('NetScan did not discover any active connections\n')
+                                                        print('\033[1;37;40mNetScan did not discover any active connections\033[0;0m\n')
                                                         time.sleep(2)
                                                     # - Prompt user to scan again or exit the program
                                                     option = -1
                                                     while option != 'y' or 'n':    
-                                                        option = input("Would you like to run another scan ? (y/n): ")
+                                                        option = input("Would you like to run another scan ? \033[1;37;40m(y/n)\033[0;0m: ")
                                                         if option == "y":
                                                             print("\nRestarting the scanner, please wait...")
                                                             time.sleep(2) 
@@ -145,13 +144,16 @@ def scan():
   
 def title():
     os.system('cls')
-    print(" ___     __               _______                        ")
-    print("|   \   |  |         _   |   ____|                    TM ")
-    print("|    \  |  |_____  _| |_ |  |____ _____ _______ __    __ ")
-    print("|     \ |  |  _  ||_   _||___    |   __|   _   |  \  |  |")
-    print("|  |\  \|  |  ___|  | |      |   |  |  |  |_|  |   \ |  |")
-    print("|  | \     | |___   | |   ___|   |  |__|   _   |    \|  |")
-    print("|__|  \____|_____|  |_|  |_______|_____|__| |__|__|\____|\n\n")
+    print('\033[1;34;40m+'+"-" *55, end="+\n")
+    print("\033[1;33;40m ____    __              _______                        ")
+    print("|    \  |  |        _   |   ____|                    \033[2;31;40mTM\033[1;33;40m ")
+    print("|     \ |  |_____ _| |_ |  |____ _____ _______ ___   __ ")
+    print("|      \|  |  _  |_   _||___    |   __|   _   |   \ |  |")
+    print("|  |\      |  ___| | |      |   |  |  |  |_|  |    \|  |")
+    print("|  | \     | |___  | |   ___|   |  |__|   _   |  |\    |")
+    print("|__|  \____|_____| |_|  |_______|_____|__| |__|__| \___|")
+    print('\033[5;34;40m+'+"-" *55, end="+\n")
+    print('+'+"-" *55, end="+\n\033[0;0m")
     scan()
 
 title()
