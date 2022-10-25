@@ -1,6 +1,12 @@
-# - IP_v4_Sweeper
+# - IP_v4_Sweeper.py
 # - Giuseppe Raciti (S3113490)
 # - Created 17th of October 2022
+# - Final Version - - Version 3.0
+
+# - Netscan will use input from the user to scan a set range IPv4 addresses
+# and using that information, scan through the range of IP addresses to indicate
+# which of the addresses receive a TTL response and displayed to the user with the
+# IP address and whether the connection is Alive. 
 
 
 import datetime
@@ -13,20 +19,21 @@ os.system('cls')
 
 def scan():
     print('\n\033[2;31;40mEnter the NETWORK address to scan\033[0;0m')
-    print('Example..... \033[1;37;40m192.168.1\033[0;0m\n')
+    print('Example..... \033[1;37;40m192.168.1.0\033[0;0m\n')
     
     try:
         user_input = 0
         while user_input == 0:
             # - User input network address in the format specified 000.000.000
             user_input = input('\033[2;31;40mEnter the network IP:\033[0;0m ')
-            if re.match(r"^[0-9]*[0-9]*[0-9]*\.[0-9]*[0-9]*[0-9]*\.[0-9]*[0-9]*[0-9]*$", user_input):
+            if re.match(r"^[0-9]*[0-9]*[0-9]*\.[0-9]*[0-9]*[0-9]*\.[0-9]*[0-9]*[0-9]*\.[0-9]*[0-9]*[0-9]*$", user_input):
                 
                 # - The users input is split into separate octets
                 ip_parts = user_input.split('.')
                 x = int(ip_parts[0])
                 y = int(ip_parts[1])
                 z = int(ip_parts[2])
+                z1 = int(ip_parts[3]) # - This value is ignored
                 
                 # - Setting the range of each octet to be between 0 and 255
                 if (x > -1) and (x < 256):
@@ -82,7 +89,7 @@ def scan():
                                                         
                                                         for line in list:
                                                             if(line.count('TTL')):
-                                                                print(addr, '--> \033[1;37;42mLIVE\033[0;0m')
+                                                                print(addr, '--> \033[1;37;42m| LIVE |\033[0;0m <--')
                                                                 counter += 1
                                                                 
                                                     # - Create time stamp and calculate the time taken for scan to complete                                                                  
