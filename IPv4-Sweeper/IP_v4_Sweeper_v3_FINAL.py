@@ -91,6 +91,9 @@ def scan():
                                                             if(line.count('TTL')):
                                                                 print(addr, '--> \033[1;37;42m| LIVE |\033[0;0m <--')
                                                                 counter += 1
+                                                            elif(line.count('ttl')):
+                                                                print(addr, '--> \033[1;37;42m| LIVE |\033[0;0m <--')
+                                                                counter += 1
                                                                 
                                                     # - Create time stamp and calculate the time taken for scan to complete                                                                  
                                                     time2 = datetime.datetime.now()
