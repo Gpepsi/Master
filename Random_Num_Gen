@@ -1,0 +1,71 @@
+import os
+from random import sample
+
+tatts_nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+        15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
+        28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+        41, 42, 43, 44, 45]
+
+oz_nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+        15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
+        28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+        41, 42, 43, 44, 45, 46, 47]
+
+pb_nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+        15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
+        28, 29, 30, 31, 32, 33, 34, 35]
+pw_ball = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+        15, 16, 17, 18, 19, 20]
+
+def powerball():
+    games = int(input('\nHow many games to play ? '))
+    print()
+    i = 0
+    while i != games:
+        x = sample(pb_nums, 7)
+        y = sample(pw_ball, 1)
+        i += + 1
+        print('Numbers: ',x, '- - - -', y)
+    print()
+    os.system('pause')
+    menu()
+
+def tattslotto():
+    games = int(input('\nHow many games to play ? '))
+    print()
+    i = 0
+    while i != games:
+        x = sample(tatts_nums, 6)
+        i += + 1
+        print('Numbers: ',x)
+    print()
+    os.system('pause')
+    menu()
+        
+def ozlotto():
+    games = int(input('\nHow many games to play ? '))
+    print()
+    i = 0
+    while i != games:
+        result = sample(oz_nums, 7)
+        i += + 1
+        print('Numbers: ',result)
+    print()
+    os.system('pause')
+    menu()
+        
+def menu():
+    
+    os.system('cls')
+    print('[0] Tattslotto')
+    print('[1] Powerball')
+    print('[2] OzLotto\n')
+    choice = input('What game are we playing ? ')
+    if choice == '0':
+        tattslotto()
+    if choice == '1':
+        powerball()
+    if choice == '2':
+        ozlotto()
+        
+menu()
