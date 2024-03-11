@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "A32HPbPGYlTcsnV+FpA66JCsMxRE4MDID1e0li86c9mtAwtYiMxINIcKS/Nzw7a9NlzMycJ8YMluPM4rM672JA==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub Repository\\Master\\Hello_World\\Hello_World.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gpeps\\.nuget\\packages\\splashkit\\1.1.4\\splashkit.1.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

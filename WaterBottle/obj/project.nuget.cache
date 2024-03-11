@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0t0AADx5S85cqjd0pTEbJ6XsNpOf5HgZmUVY+fEVqcdSazWu4hSOTPQiaYjCfIpYSOepvRCZsQs189Sl8Wqqng==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub Repository\\Master\\WaterBottle\\WaterBottle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gpeps\\.nuget\\packages\\splashkit\\1.1.4\\splashkit.1.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
