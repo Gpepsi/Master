@@ -24,7 +24,8 @@ const int WINDOW_HEIGHT = 600;
 | BOTTLE_HEIGHT
 |          <-----x-----> BOTTLE_RADIUS
 |         BOTTLE_DIAMETER
-\-------------------------------------*/const int BOTTLE_RADIUS = 80;
+\-------------------------------------*/
+const int BOTTLE_RADIUS = 80;
 const int BOTTLE_HEIGHT = 400;
 const int BOTTLE_DIAMETER = BOTTLE_RADIUS * 2;
 const int BOTTLE_CENTER_X = WINDOW_WIDTH / 2;

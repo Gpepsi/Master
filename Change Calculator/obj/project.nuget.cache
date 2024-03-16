@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "z67ztUTDM9KITQ29bR05T7lAVzppq/H9u71g7oB/1WSymCOGstonRHM4edJ781HxKHY0CGVUVKpqeU4DLYi2AA==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub Repository\\Master\\Change Calculator\\Change Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gpeps\\.nuget\\packages\\splashkit\\1.1.4\\splashkit.1.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
