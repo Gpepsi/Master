@@ -16,3 +16,21 @@ D:\Deakin Cyber Course\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\ref
 D:\Deakin Cyber Course\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.pdb
 D:\Deakin Cyber Course\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.genruntimeconfig.cache
 D:\Deakin Cyber Course\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\ref\WaterBottle.dll
+D:\GitHub Repository\Master\WaterBottle\bin\Debug\net8.0\WaterBottle.exe
+D:\GitHub Repository\Master\WaterBottle\bin\Debug\net8.0\WaterBottle.deps.json
+D:\GitHub Repository\Master\WaterBottle\bin\Debug\net8.0\WaterBottle.runtimeconfig.json
+D:\GitHub Repository\Master\WaterBottle\bin\Debug\net8.0\WaterBottle.dll
+D:\GitHub Repository\Master\WaterBottle\bin\Debug\net8.0\WaterBottle.pdb
+D:\GitHub Repository\Master\WaterBottle\bin\Debug\net8.0\SplashKitSDK.dll
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.csproj.AssemblyReference.cache
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.AssemblyInfoInputs.cache
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.AssemblyInfo.cs
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.sourcelink.json
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBot.DA53F9C0.Up2Date
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.dll
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\refint\WaterBottle.dll
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.pdb
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\WaterBottle.genruntimeconfig.cache
+D:\GitHub Repository\Master\WaterBottle\obj\Debug\net8.0\ref\WaterBottle.dll

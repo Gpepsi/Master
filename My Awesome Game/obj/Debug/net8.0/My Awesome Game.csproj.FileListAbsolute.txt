@@ -1,0 +1,18 @@
+D:\GitHub Repository\Master\My Awesome Game\bin\Debug\net8.0\My Awesome Game.exe
+D:\GitHub Repository\Master\My Awesome Game\bin\Debug\net8.0\My Awesome Game.deps.json
+D:\GitHub Repository\Master\My Awesome Game\bin\Debug\net8.0\My Awesome Game.runtimeconfig.json
+D:\GitHub Repository\Master\My Awesome Game\bin\Debug\net8.0\My Awesome Game.dll
+D:\GitHub Repository\Master\My Awesome Game\bin\Debug\net8.0\My Awesome Game.pdb
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.AssemblyInfoInputs.cache
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.AssemblyInfo.cs
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.sourcelink.json
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.dll
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\refint\My Awesome Game.dll
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.pdb
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.genruntimeconfig.cache
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\ref\My Awesome Game.dll
+D:\GitHub Repository\Master\My Awesome Game\bin\Debug\net8.0\SplashKitSDK.dll
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Awesome Game.csproj.AssemblyReference.cache
+D:\GitHub Repository\Master\My Awesome Game\obj\Debug\net8.0\My Aweso.B6102506.Up2Date

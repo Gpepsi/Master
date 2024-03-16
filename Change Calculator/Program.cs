@@ -18,7 +18,7 @@ string line;
 
 //Steps:
 WriteLine("The Change Calculator!");
-WriteLine("");
+WriteLine();
 
 // Get the details from the user.
 
@@ -26,20 +26,20 @@ WriteLine("");
     Write("What is the cost of the Item ? (In cents):  ");
     line = ReadLine();
     costOfItem = ToInt32(line);
-    WriteLine("");
+    WriteLine();
 
     // Get the amount paid (store in amountPaid)
     Write("Please enter the amount paid ? (In cents):  ");
     line = ReadLine();
     amountPaid = ToInt32(line);
-    WriteLine("");
+    WriteLine();
 
     // Calculate the amount of change to provide
         // Give change
         changeValue = amountPaid - costOfItem;
                
         WriteLine("Dispensing your change..... Please Wait....");
-        WriteLine("");
+        WriteLine();
             // Give $2 coins
             // Calculate the number of $2 coins to give
             // Update the amount of change remaining to give
@@ -86,9 +86,9 @@ WriteLine("");
             // Output the number of 5c coins to give - using Write
                 toGive = changeValue / FIVE_CENTS;
                 changeValue = changeValue - toGive * FIVE_CENTS;
-                Write($"{toGive} x 5c");
-                WriteLine("");
-                WriteLine("");
+                Write($"{toGive} x 5c, ");
+                WriteLine();
+                WriteLine();
 
         WriteLine("Thank you, Please come again !");
-        WriteLine("");
+        WriteLine();

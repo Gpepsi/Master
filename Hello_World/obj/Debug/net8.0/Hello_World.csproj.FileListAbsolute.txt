@@ -12,3 +12,21 @@ D:\Deakin Cyber Course\GitHub Repository\Hello_World\obj\Debug\net8.0\refint\Hel
 D:\Deakin Cyber Course\GitHub Repository\Hello_World\obj\Debug\net8.0\Hello_World.pdb
 D:\Deakin Cyber Course\GitHub Repository\Hello_World\obj\Debug\net8.0\Hello_World.genruntimeconfig.cache
 D:\Deakin Cyber Course\GitHub Repository\Hello_World\obj\Debug\net8.0\ref\Hello_World.dll
+D:\GitHub Repository\Master\Hello_World\bin\Debug\net8.0\Hello_World.exe
+D:\GitHub Repository\Master\Hello_World\bin\Debug\net8.0\Hello_World.deps.json
+D:\GitHub Repository\Master\Hello_World\bin\Debug\net8.0\Hello_World.runtimeconfig.json
+D:\GitHub Repository\Master\Hello_World\bin\Debug\net8.0\Hello_World.dll
+D:\GitHub Repository\Master\Hello_World\bin\Debug\net8.0\Hello_World.pdb
+D:\GitHub Repository\Master\Hello_World\bin\Debug\net8.0\SplashKitSDK.dll
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.csproj.AssemblyReference.cache
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.AssemblyInfoInputs.cache
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.AssemblyInfo.cs
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.sourcelink.json
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_Wo.4086C268.Up2Date
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.dll
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\refint\Hello_World.dll
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.pdb
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\Hello_World.genruntimeconfig.cache
+D:\GitHub Repository\Master\Hello_World\obj\Debug\net8.0\ref\Hello_World.dll

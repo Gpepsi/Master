@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ww3eI4NK4qUmpv1lTqx0FtRttLXjUfI0yqKzpDk6N3JIqq4WXWwgAIF59Ie2WdZHKk2xSz/xD5MuIFSlgjq8ng==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub Repository\\Master\\My Awesome Game\\My Awesome Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gpeps\\.nuget\\packages\\splashkit\\1.1.4\\splashkit.1.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
